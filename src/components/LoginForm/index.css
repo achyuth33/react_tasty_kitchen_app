@@ -1,0 +1,148 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.mobile-signIn-container {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.desktop-sigIn-icon-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+}
+.signIn-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.input-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.label {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #475569;
+}
+
+.input-element {
+  background: #e2e8f0;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.signIn-button {
+  background: #f7931e;
+  border-radius: 8px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  height: 35px;
+  color: #ffffff;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.error-message {
+  color: red;
+  margin-left: 20px;
+}
+@media screen and (max-width: 767px) {
+  .desktop-signIn-container {
+    display: none;
+  }
+  .signIn-heading {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .desktop-signIn-image-container {
+    display: none;
+  }
+  .sign-in-container {
+    margin-bottom: 20px;
+  }
+  .signIn-heading {
+    font-size: 20px;
+  }
+  .input-container {
+    margin-right: 20px;
+  }
+  .mobile-signIn-image {
+    height: 250px;
+    width: 187px;
+  }
+  .signIn-button {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .desktop-signIn-container {
+    display: none;
+  }
+  .signIn-heading {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .desktop-signIn-image-container {
+    display: none;
+  }
+  .sign-in-container {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mobile-signIn-container {
+    display: none;
+  }
+  .signIn-heading {
+    text-align: center;
+  }
+  .form-container {
+    width: 456px;
+    height: 523px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    margin-top: 100px;
+  }
+  .desktop-sigIn-icon-container {
+    margin-bottom: 60px;
+  }
+  .desktop-sign-in-card-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .sign-in-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+  .desktop-signIn-image-container {
+    height: 100px;
+    width: 50%;
+  }
+  .desktop-signIn-image {
+    height: 100vh;
+    width: 100%;
+  }
+}

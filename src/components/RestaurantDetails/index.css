@@ -1,0 +1,147 @@
+.restaurant-Image-text-details-container {
+  background-image: url('https://res.cloudinary.com/dppqkea7f/image/upload/v1626142265/Rectaurant-background_hkp8tj.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.separate-restaurant-image {
+  width: 331px;
+  height: 221px;
+  border-radius: 8px;
+}
+.separate-restaurant-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.separate-restaurant-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #ffffff;
+}
+.separate-restaurant-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+.separate-restaurant-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+.separate-rating-costs-container {
+  display: flex;
+  flex-direction: row;
+}
+.separate-rating-details-container {
+  border-right: 1px solid #e2e8f0;
+  margin-right: 15px;
+  padding-right: 15px;
+}
+.separate-rating-container {
+  display: flex;
+  flex-direction: row;
+}
+.separate-star-icon {
+  color: #ffffff;
+  margin-top: 2px;
+  margin-right: 4px;
+}
+.separate-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+.para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #e2e8f0;
+}
+.cost-for-two-container {
+  margin-top: 5px;
+}
+.cost-container {
+  display: flex;
+  flex-direction: row;
+}
+.rupees-icon {
+  color: #ffffff;
+  margin-top: 2.5px;
+  margin-right: 4px;
+  font-size: 12px;
+}
+.cost-for-two {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .restaurant-Image-text-details-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-right: 10px;
+  }
+  .separate-restaurant-image {
+    height: 221px;
+    width: 151px;
+    border-radius: 0 170% 250% 0;
+  }
+  .separate-restaurant-name {
+    font-size: 18px;
+  }
+  .separate-restaurant-type {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .separate-restaurant-location {
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .separate-restaurant-image {
+    height: 331px;
+    width: 441px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-each-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 220px;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .restaurant-each-item-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}

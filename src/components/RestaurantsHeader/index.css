@@ -1,0 +1,76 @@
+.Restaurants-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding-right: 30px;
+}
+
+.Restaurants-list-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+.Restaurants-list-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .Restaurants-list-heading {
+    font-size: 32px;
+  }
+  .Restaurants-header {
+    margin-top: 32px;
+  }
+  .Restaurants-list-description {
+    font-size: 22px;
+  }
+}
+
+.sort-by-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.sort-by-icon {
+  width: 24px;
+  height: 24px;
+  color: #475569;
+  margin-top: 14px;
+  margin-right: 0px;
+}
+
+.sort-by-select {
+  color: #475569;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.select-option {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .Restaurants-header {
+    justify-content: flex-start;
+    padding-left: 15px;
+    margin-top: 10px;
+  }
+}
